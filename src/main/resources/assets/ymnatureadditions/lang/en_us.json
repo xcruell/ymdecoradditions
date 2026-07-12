@@ -1,0 +1,13 @@
+{
+  "itemGroup.ymnatureadditions": "Example Mod Tab",
+  "block.ymnatureadditions.example_block": "Example Block",
+  "item.ymnatureadditions.example_item": "Example Item",
+
+  "ymnatureadditions.configuration.title": "YM! Nature Additions Configs",
+  "ymnatureadditions.configuration.section.ymnatureadditions.common.toml": "YM! Nature Additions Configs",
+  "ymnatureadditions.configuration.section.ymnatureadditions.common.toml.title": "YM! Nature Additions Configs",
+  "ymnatureadditions.configuration.items": "Item List",
+  "ymnatureadditions.configuration.logDirtBlock": "Log Dirt Block",
+  "ymnatureadditions.configuration.magicNumberIntroduction": "Magic Number Text",
+  "ymnatureadditions.configuration.magicNumber": "Magic Number"
+}
