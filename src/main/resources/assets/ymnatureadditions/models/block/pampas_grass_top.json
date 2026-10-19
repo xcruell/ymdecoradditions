@@ -1,0 +1,7 @@
+{
+  "parent": "ymnatureadditions:block/double_tinted_cross",
+  "textures": {
+    "grass": "ymnatureadditions:block/pampas_grass_grass_top",
+    "flowers": "ymnatureadditions:block/pampas_grass_flowers_top"
+  }
+}

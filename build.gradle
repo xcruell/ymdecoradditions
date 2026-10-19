@@ -16,6 +16,20 @@ sourceSets.main.resources {
     exclude("src/generated/**/.cache")
 }
 
+repositories {
+    maven {
+        name 'Modrinth'
+        url 'https://api.modrinth.com/maven'
+    }
+
+    maven {
+        name 'NeoForged'
+        url 'https://maven.neoforged.net/releases/'
+    }
+    mavenCentral()
+}
+
+
 base {
     archivesName = mod_id
 }

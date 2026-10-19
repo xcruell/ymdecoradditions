@@ -1,0 +1,10 @@
+{
+    "variants": {
+        "half=upper": {
+            "model": "ymnatureadditions:block/pampas_grass_top"
+        },
+        "half=lower": {
+            "model": "ymnatureadditions:block/pampas_grass_bottom"
+        }
+    }
+}

@@ -1,0 +1,51 @@
+{
+	"format_version": "1.9.0",
+	"credit": "Made with Blockbench",
+	"ambientocclusion": false,
+	"render_type": "minecraft:cutout",
+	"textures": {
+		"particle": "#grass"
+	},
+	"elements": [
+		{
+			"from": [0.8, 0, 8],
+			"to": [15.2, 16, 8],
+			"shade": false,
+			"rotation": {"angle": 45, "axis": "y", "origin": [8, 8, 8], "rescale": true},
+			"faces": {
+				"north": {"uv": [0, 0, 16, 16], "texture": "#grass", "tintindex": 0},
+				"south": {"uv": [0, 0, 16, 16], "texture": "#grass", "tintindex": 0}
+			}
+		},
+		{
+			"from": [8, 0, 0.8],
+			"to": [8, 16, 15.2],
+			"shade": false,
+			"rotation": {"angle": 45, "axis": "y", "origin": [8, 8, 8], "rescale": true},
+			"faces": {
+				"east": {"uv": [0, 0, 16, 16], "texture": "#grass", "tintindex": 0},
+				"west": {"uv": [0, 0, 16, 16], "texture": "#grass", "tintindex": 0}
+			}
+		},
+		{
+			"from": [0.8, 0, 8.01],
+			"to": [15.2, 16, 8.01],
+			"shade": false,
+			"rotation": {"angle": 45, "axis": "y", "origin": [8, 8, 8], "rescale": true},
+			"faces": {
+				"north": {"uv": [0, 0, 16, 16], "texture": "#flowers"},
+				"south": {"uv": [0, 0, 16, 16], "texture": "#flowers"}
+			}
+		},
+		{
+			"from": [8.01, 0, 0.8],
+			"to": [8.01, 16, 15.2],
+			"shade": false,
+			"rotation": {"angle": 45, "axis": "y", "origin": [8, 8, 8], "rescale": true},
+			"faces": {
+				"east": {"uv": [0, 0, 16, 16], "texture": "#flowers"},
+				"west": {"uv": [0, 0, 16, 16], "texture": "#flowers"}
+			}
+		}
+	]
+}
