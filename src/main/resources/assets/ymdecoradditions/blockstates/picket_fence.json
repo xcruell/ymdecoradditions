@@ -1,0 +1,380 @@
+{
+  "multipart": [
+    {
+      "when": {
+        "facing": "north",
+        "north": false,
+        "east": false,
+        "south": false,
+        "west": false
+      },
+      "apply": {
+        "model": "ymdecoradditions:block/picket_fence_single",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "north": false,
+        "east": false,
+        "south": false,
+        "west": false
+      },
+      "apply": {
+        "model": "ymdecoradditions:block/picket_fence_single",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "north": false,
+        "east": false,
+        "south": false,
+        "west": false
+      },
+      "apply": {
+        "model": "ymdecoradditions:block/picket_fence_single"
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "north": false,
+        "east": false,
+        "south": false,
+        "west": false
+      },
+      "apply": {
+        "model": "ymdecoradditions:block/picket_fence_single",
+        "y": 90
+      }
+    },
+
+    {
+      "when": {
+        "facing": "north",
+        "north": false,
+        "east": false,
+        "south": false,
+        "west": true
+      },
+      "apply": {
+        "model": "ymdecoradditions:block/picket_fence_right",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "north": true,
+        "east": false,
+        "south": false,
+        "west": false
+      },
+      "apply": {
+        "model": "ymdecoradditions:block/picket_fence_right",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "north": false,
+        "east": true,
+        "south": false,
+        "west": false
+      },
+      "apply": {
+        "model": "ymdecoradditions:block/picket_fence_right"
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "north": false,
+        "east": false,
+        "south": true,
+        "west": false
+      },
+      "apply": {
+        "model": "ymdecoradditions:block/picket_fence_right",
+        "y": 90
+      }
+    },
+
+    {
+      "when": {
+        "facing": "north",
+        "north": false,
+        "east": true,
+        "south": false,
+        "west": false
+      },
+      "apply": {
+        "model": "ymdecoradditions:block/picket_fence_left",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "north": false,
+        "east": false,
+        "south": true,
+        "west": false
+      },
+      "apply": {
+        "model": "ymdecoradditions:block/picket_fence_left",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "north": false,
+        "east": false,
+        "south": false,
+        "west": true
+      },
+      "apply": {
+        "model": "ymdecoradditions:block/picket_fence_left"
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "north": true,
+        "east": false,
+        "south": false,
+        "west": false
+      },
+      "apply": {
+        "model": "ymdecoradditions:block/picket_fence_left",
+        "y": 90
+      }
+    },
+
+    {
+      "when": {
+        "facing": "north",
+        "north": false,
+        "east": true,
+        "south": false,
+        "west": true
+      },
+      "apply": {
+        "model": "ymdecoradditions:block/picket_fence_middle",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "north": true,
+        "east": false,
+        "south": true,
+        "west": false
+      },
+      "apply": {
+        "model": "ymdecoradditions:block/picket_fence_middle",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "north": false,
+        "east": true,
+        "south": false,
+        "west": true
+      },
+      "apply": {
+        "model": "ymdecoradditions:block/picket_fence_middle"
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "north": true,
+        "east": false,
+        "south": true,
+        "west": false
+      },
+      "apply": {
+        "model": "ymdecoradditions:block/picket_fence_middle",
+        "y": 90
+      }
+    },
+
+    {
+      "when": {
+        "facing": "north",
+        "north": false,
+        "east": false,
+        "south": true,
+        "west": true
+      },
+      "apply": {
+        "model": "ymdecoradditions:block/picket_fence_corner",
+        "y": 0
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "north": true,
+        "east": false,
+        "south": false,
+        "west": true
+      },
+      "apply": {
+        "model": "ymdecoradditions:block/picket_fence_corner",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "north": true,
+        "east": true,
+        "south": false,
+        "west": false
+      },
+      "apply": {
+        "model": "ymdecoradditions:block/picket_fence_corner",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "north": false,
+        "east": true,
+        "south": true,
+        "west": false
+      },
+      "apply": {
+        "model": "ymdecoradditions:block/picket_fence_corner",
+        "y": 270
+      }
+    },
+
+    {
+      "when": {
+        "facing": "north",
+        "north": true,
+        "east": true,
+        "south": false,
+        "west": true
+      },
+      "apply": {
+        "model": "ymdecoradditions:block/picket_fence_t_front",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "north": true,
+        "east": true,
+        "south": false,
+        "west": true
+      },
+      "apply": {
+        "model": "ymdecoradditions:block/picket_fence_t_front",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "north": true,
+        "east": true,
+        "south": true,
+        "west": false
+      },
+      "apply": {
+        "model": "ymdecoradditions:block/picket_fence_t_front"
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "north": false,
+        "east": true,
+        "south": true,
+        "west": true
+      },
+      "apply": {
+        "model": "ymdecoradditions:block/picket_fence_t_front",
+        "y": 90
+      }
+    },
+
+    {
+      "when": {
+        "facing": "north",
+        "north": false,
+        "east": true,
+        "south": true,
+        "west": true
+      },
+      "apply": {
+        "model": "ymdecoradditions:block/picket_fence_t_back",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "north": true,
+        "east": true,
+        "south": true,
+        "west": false
+      },
+      "apply": {
+        "model": "ymdecoradditions:block/picket_fence_t_back",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "north": true,
+        "east": false,
+        "south": true,
+        "west": true
+      },
+      "apply": {
+        "model": "ymdecoradditions:block/picket_fence_t_back"
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "north": true,
+        "east": true,
+        "south": true,
+        "west": false
+      },
+      "apply": {
+        "model": "ymdecoradditions:block/picket_fence_t_back",
+        "y": 90
+      }
+    },
+
+    {
+      "when": {
+        "north": true,
+        "east": true,
+        "south": true,
+        "west": true
+      },
+      "apply": {
+        "model": "ymdecoradditions:block/picket_fence_plus"
+      }
+    }
+  ]
+}

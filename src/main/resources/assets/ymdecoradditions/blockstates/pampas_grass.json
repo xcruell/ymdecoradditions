@@ -1,0 +1,10 @@
+{
+    "variants": {
+        "half=upper": {
+            "model": "ymdecoradditions:block/pampas_grass_top"
+        },
+        "half=lower": {
+            "model": "ymdecoradditions:block/pampas_grass_bottom"
+        }
+    }
+}

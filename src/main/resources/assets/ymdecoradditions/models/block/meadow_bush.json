@@ -1,0 +1,7 @@
+{
+  "parent": "ymdecoradditions:block/double_tinted_cross",
+  "textures": {
+    "grass": "ymdecoradditions:block/meadow_bush_grass",
+    "flowers": "ymdecoradditions:block/meadow_bush_flowers"
+  }
+}

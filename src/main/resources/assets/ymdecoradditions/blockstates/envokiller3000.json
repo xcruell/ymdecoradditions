@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "lit=false,powered=false": {
+      "model": "ymdecoradditions:block/envokiller3000"
+    },
+    "lit=false,powered=true": {
+      "model": "ymdecoradditions:block/envokiller3000"
+    },
+    "lit=true,powered=false": {
+      "model": "ymdecoradditions:block/envokiller3000"
+    },
+    "lit=true,powered=true": {
+      "model": "ymdecoradditions:block/envokiller3000"
+    }
+  }
+}

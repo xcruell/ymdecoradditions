@@ -23,6 +23,16 @@ repositories {
     }
 
     maven {
+        name 'Create'
+        url 'https://maven.createmod.net'
+    } // Create, Ponder, Flywheel
+
+    maven {
+        name 'ithundxr'
+        url 'https://maven.ithundxr.dev/snapshots'
+    }
+
+    maven {
         name 'NeoForged'
         url 'https://maven.neoforged.net/releases/'
     }
@@ -74,6 +84,14 @@ neoForge {
 
 configurations {
     runtimeClasspath.extendsFrom localRuntime
+}
+
+dependencies {
+    implementation("com.simibubi.create:create-${minecraft_version}:${create_version}:slim") { transitive = false }
+    implementation("net.createmod.ponder:ponder-neoforge:${ponder_version}+mc${minecraft_version}")
+    compileOnly("dev.engine-room.flywheel:flywheel-neoforge-api-${minecraft_version}:${flywheel_version}")
+    runtimeOnly("dev.engine-room.flywheel:flywheel-neoforge-${minecraft_version}:${flywheel_version}")
+    implementation("com.tterrag.registrate:Registrate:${registrate_version}")
 }
 
 var generateModMetadata = tasks.register("generateModMetadata", ProcessResources) {

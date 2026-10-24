@@ -8,7 +8,7 @@ version="${mod_version}"
 displayName="${mod_name}"
 authors="YesMenn!, xcruell"
 description='''
-Nature additions for Minecraft.
+Decor and additions for Minecraft.
 '''
 
 [[dependencies.${mod_id}]]
